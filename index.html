@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Haven</title>
+</head>
+<body>
+    <img src="logo.png" alt="Book Haven logo" width="150" height="150">
+    <h1>BOOK HAVEN</h1>
+    <p>Founded in 2026, <strong>Book Haven</strong> was created with a simple goal to make great books accessible to everyone. We believe that every book has the power to inspire, educate, entertain, and introduce readers to new ideas and perspectives.<br><br>
+At Book Haven, we offer a wide selection of books for different interests and ages. Our collection includes <strong>fiction, self-improvement, personal development, educational books, and other engaging titles,</strong> giving every reader an opportunity to discover something they enjoy.<br><br>
+Our mission is to <strong>connect people with books that inspire growth, spark curiosity, and make reading a meaningful part of everyday life.</strong> We aim to create a welcoming space where readers can discover new stories, learn valuable lessons, and continue growing through the power of books.<br><br>
+<em>Welcome to Book Haven, your home for stories, knowledge, and endless possibilities.</em></p>
+
+<h2>Book Categories</h2>
+<ul>
+    <li>Fictional books</li>
+    <li>Self improvement books</li>
+    <li>Educational books</li>
+    <li>Technology & programming books</li>
+</ul>
+
+<h2>Why Choose Book Haven?</h2>
+<ol>
+    <li>We offer carefully selected books that are enjoyable, useful, and suited to your needs.</li>
+    <li>Find great books at prices that fit your budget.</li>
+    <li>Choose from different genres and topics, so there is always something for you to discover.</li>
+    <li>We are committed to making your book-buying experience simple, friendly, and enjoyable.</li>
+</ol>
+        <!-- Table element-->
+<table border="3" cellpadding="2" cellspacing="2">
+    <caption><strong>Book Catalogue</strong></caption>
+<tr>
+    <th>Image</th>
+    <th>Book</th>
+    <th>Author</th>
+    <th>Price</th>
+</tr>
+
+<tr>
+   <td><img src="Atomic.jpeg" alt="Cover of atomic habits by James clear" width="120" height="120"></td>
+   <td>Atomic Habits</td>
+   <td>James Clear</td>
+   <td>₦7,000</td>
+</tr>
+
+<tr>
+    <td><img src="Harry potter.jpg" alt="Cover of Harry Potter by JK Rowling" width="120" height="120"></td>
+    <td>Harry Potter and the philosopher Stone</td>
+    <td>JK Rowling</td>
+    <td>₦7,500</td>
+</tr>
+    
+<tr>
+    <td><img src="New school.jpeg" alt="cover of new school chemistry by Osei Yaw Ababio" width="120" height="120"></td>
+    <td>New School Chemistry</td>
+    <td>Osei Yaw Ababio</td>
+    <td>₦6,000</td> 
+</tr>
+    
+<tr>
+    <td><img src="last.jpeg" alt="Cover of the Romeo and Juliet by William Shakespeare" width="120" height="120"></td>
+    <td>Romeo And Juliet</td>
+    <td>William Shakespeare</td>
+    <td>₦4,500</td>
+</tr>
+</table><br>
+  <p>Looking for more great reads? Click here to <a href="opens a web page">explore our full collection.</a></p>
+
+      <!-- Name Forms-->
+<form>
+ <fieldset>
+     <legend>
+         <strong>
+             <u>
+                 <big>
+                 Personal Information 
+                 </big>
+             </u>
+         </strong>
+     </legend>
+    <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+        
+        <label for="middle-name">Middle Name:</label><br>
+        <input type="text" id="middle-name" name="middle-name"><br><br>
+        
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+        
+        <!-- Email Form-->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <!-- Phone Number Form-->
+        <label for="phone-number">Phone Number:</label><br>
+        <input type="tel" id="phone-number" name="phone-number" required><br><br>
+        
+        <!-- Password Form-->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="At least 8 characters" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#$_&-+?!£¢€%©®¥™∆§×÷π√=°^]).{8,}" title="Must contain a letter(uppercase and lowercase), a number, a symbol and at least 8 characters or more" required><br><br>
+        
+      <!-- Age Form-->
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="13" max="100" required><br><br>
+        
+       <!-- Birth-Date Form-->
+       <label for="date-of-birth">Date Of Birth:</label><br>
+         <input type="date" id="date-of-birth" name="date-of-birth" required><br><br>
+</fieldset><br><br>
+
+    <fieldset>
+     <legend>
+         <strong>
+             <u>
+                 <big>
+                 Your Preferences
+                 </big>
+             </u>
+         </strong>
+     </legend>
+    <!-- Gender Form-->
+     <label for="gender">Gender:</label><br>
+     <label for="male">Male</label>
+     <input type="radio" id="male" name="gender" value="male">
+     
+     <label for="female">Female</label>
+     <input type="radio" id="female" name="gender" value="female"><br><br>
+     
+     <!-- Location form-->
+     <label for="continent">Where are you located🌍?</label>
+     <select id="continent" name="continent">
+         <option value="none"></option>
+         <option value="Africa">Africa</option>
+         <option value="Asia">Asia</option>
+         <option value="Antarctica">Antarctica</option>
+         <option value="Australia">Australia</option>
+         <option value="Europe">Europe</option>
+         <option value="North-America">North-America</option>
+         <option value="South-America">South-America</option>
+         </select><br><br>
+         
+         <!-- Checkbox form-->
+    <label for="book-category">Favorite Book Category📚?</label><br><br>
+    <label for="fiction">Fiction🦸</label>
+    <input type="checkbox" id="fiction" name="book-category" value="fiction"><br>
+    <label for="romance">Romance🥀</label>
+    <input type="checkbox" id="romance" name="book-category" value="romance"><br>
+    <label for="self-improvement">Self-Improvement🏋️</label>
+    <input type="checkbox" id="self-improvement" name="book-category" value="self-improvement"><br>
+    <label for="education">Education🧑‍🔬</label>
+    <input type="checkbox" id="education" name="book-category" value="education"><br><br>
+    
+    <!-- Color form-->
+    <label for="color">Favorite Colour:</label><br>
+    <input type="color" id="color" name="favorite color"><br><br>
+    
+    <!--Comment form-->
+    <label for="comment">Tell us about your reading interests:</label>
+<textarea id="comment" name="comment" placeholder=" Tell us what you enjoy reading or the kind of books you're looking for..." cols="35" rows="10"></textarea><br><br>
+    </fieldset><br>
+    
+    <!-- button form-->
+    <button type="submit">Begin Your Reading Journey 📚</button>
+</form>
+
+<footer>
+        <p><em>Thank you for choosing Book Haven! We hope you find your next great read with us.</em></p>
+        <p>Designed & Developed by <a href="opens a web page">Isaac Digitalz</a></p>
+        <p><strong><big>© 2026 Book Haven. All rights reserved.</big></strong></p>
+</footer>
+</body>
+</html>
